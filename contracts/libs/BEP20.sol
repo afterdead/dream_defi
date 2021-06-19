@@ -57,7 +57,7 @@ contract BEP20 is Context, IBEP20, Ownable {
         _name = name;
         _symbol = symbol;
         _decimals = 18;
-        _totalSupply = 1122 * 10 ** _decimals;
+        _totalSupply = 1122 * (10 ** 18);
     }
 
     /**
